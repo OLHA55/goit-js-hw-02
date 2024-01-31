@@ -1,6 +1,15 @@
 function checkForSpam(message) {
-    
-}
+    const firstWord = `spam`;
+    const secondWord = `sale`;
+    if ((message.toLowerCase()).includes(firstWord) || (message.toLowerCase()).includes(secondWord)){
+           console.log(true) ;
+    } else {
+        console.log(false);
+    }
+        
+    }
+   
+
 
 
 
